@@ -271,6 +271,18 @@
           "src/main/resources/data/msat/recipe/alu_get_f_baux.json"
         ]
       }
+    },
+    {
+      "name": "AluGetFDeepBau",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_get_f_deep_bau",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_get_f_deep_bau.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
