@@ -259,6 +259,18 @@
           "src/main/java/net/mcreator/msat/item/AluminiumIngotItem.java"
         ]
       }
+    },
+    {
+      "name": "AluGetFBaux",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_get_f_baux",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_get_f_baux.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -273,6 +285,13 @@
       "~CUSTOM:DeepslateRedDiamondOre",
       "~CUSTOM:RedDiamondBlock",
       "~CUSTOM:RedDiamondOre"
+    ],
+    "BLOCKS:c:ores/bauxite": [
+      "CUSTOM:Bauxiteore",
+      "CUSTOM:DeepslateBauxiteOre"
+    ],
+    "ITEMS:c:ingots/aluminium": [
+      "CUSTOM:AluminiumIngot"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:Copperpickaxe",
@@ -290,6 +309,10 @@
       "~CUSTOM:Copperhoe",
       "~CUSTOM:RedDiamondhoe"
     ],
+    "BLOCKS:c:ores/red_diamond": [
+      "CUSTOM:RedDiamondOre",
+      "CUSTOM:DeepslateRedDiamondOre"
+    ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:CopperShovel",
       "~CUSTOM:RedDiamondshovel"
@@ -300,8 +323,8 @@
     "en_us": {
       "block.msat.deepslate_red_diamond_ore": "Deepslate Red Diamond Ore",
       "item.msat.red_diamond_pickaxe": "Red Diamond Pickaxe",
-      "item.msat.copper_shovel": "Copper Shovel",
       "item.msat.copper_hoe": "Copperhoe",
+      "item.msat.copper_shovel": "Copper Shovel",
       "item.msat.red_diamond_axe": "Red Diamond Axe",
       "item.msat.copper_sword": "Copper Sword",
       "block.msat.red_diamond_block": "Red Diamond Block",
