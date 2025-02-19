@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "msat:block/bauxite_ore",
+    "up": "msat:block/bauxite_ore",
+    "north": "msat:block/bauxite_ore",
+    "east": "msat:block/bauxite_ore",
+    "south": "msat:block/bauxite_ore",
+    "west": "msat:block/bauxite_ore",
+    "particle": "msat:block/bauxite_ore"
+  },
+  "render_type": "solid"
+}

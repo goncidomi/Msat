@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "msat:deepslate_red_diamond_ore",
+    "msat:red_diamond_block",
+    "msat:red_diamond_ore"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "msat:block/deepslate_bauxite_ore",
+    "up": "msat:block/deepslate_bauxite_ore",
+    "north": "msat:block/deepslate_bauxite_ore",
+    "east": "msat:block/deepslate_bauxite_ore",
+    "south": "msat:block/deepslate_bauxite_ore",
+    "west": "msat:block/deepslate_bauxite_ore",
+    "particle": "msat:block/deepslate_bauxite_ore"
+  },
+  "render_type": "solid"
+}

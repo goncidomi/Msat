@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "msat:block/diamond_ore",
+    "up": "msat:block/diamond_ore",
+    "north": "msat:block/diamond_ore",
+    "east": "msat:block/diamond_ore",
+    "south": "msat:block/diamond_ore",
+    "west": "msat:block/diamond_ore",
+    "particle": "msat:block/diamond_ore"
+  },
+  "render_type": "solid"
+}

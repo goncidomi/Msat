@@ -1,0 +1,35 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "untitled-1",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Red Diamond Swords",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.5999999999999999,
+    "enchantability": 10,
+    "damageVsEntity": 6.5,
+    "usageCount": 1221,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "red_diamond_hoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Red Diamondhoe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:RedDiamond"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

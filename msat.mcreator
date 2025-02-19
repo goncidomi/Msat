@@ -1,0 +1,341 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/CopperSwordItem.java",
+          "src/main/resources/assets/msat/models/item/copper_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDiamondSwords",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_diamond_swords",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/RedDiamondSwordsItem.java",
+          "src/main/resources/assets/msat/models/item/red_diamond_swords.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDiamondOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/block/RedDiamondOreBlock.java",
+          "src/main/resources/data/msat/neoforge/biome_modifier/red_diamond_ore_biome_modifier.json",
+          "src/main/resources/assets/msat/models/item/red_diamond_ore.json",
+          "src/main/resources/assets/msat/models/block/red_diamond_ore.json",
+          "src/main/resources/data/msat/worldgen/configured_feature/red_diamond_ore.json",
+          "src/main/resources/data/msat/loot_table/blocks/red_diamond_ore.json",
+          "src/main/resources/assets/msat/blockstates/red_diamond_ore.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/red_diamond_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDiamondBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_diamond_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/block/red_diamond_block.json",
+          "src/main/java/net/mcreator/msat/block/RedDiamondBlockBlock.java",
+          "src/main/resources/assets/msat/blockstates/red_diamond_block.json",
+          "src/main/resources/data/msat/loot_table/blocks/red_diamond_block.json",
+          "src/main/resources/assets/msat/models/item/red_diamond_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDiamond",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/RedDiamondItem.java",
+          "src/main/resources/assets/msat/models/item/red_diamond.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateRedDiamondOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_red_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/loot_table/blocks/deepslate_red_diamond_ore.json",
+          "src/main/resources/assets/msat/models/item/deepslate_red_diamond_ore.json",
+          "src/main/java/net/mcreator/msat/block/DeepslateRedDiamondOreBlock.java",
+          "src/main/resources/data/msat/neoforge/biome_modifier/deepslate_red_diamond_ore_biome_modifier.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/deepslate_red_diamond_ore.json",
+          "src/main/resources/data/msat/worldgen/configured_feature/deepslate_red_diamond_ore.json",
+          "src/main/resources/assets/msat/blockstates/deepslate_red_diamond_ore.json",
+          "src/main/resources/assets/msat/models/block/deepslate_red_diamond_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDiamondPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_diamond_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/RedDiamondPickaxeItem.java",
+          "src/main/resources/assets/msat/models/item/red_diamond_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDiamondAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_diamond_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/red_diamond_axe.json",
+          "src/main/java/net/mcreator/msat/item/RedDiamondAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedDiamondhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_diamondhoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/RedDiamondhoeItem.java",
+          "src/main/resources/assets/msat/models/item/red_diamondhoe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDiamondshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_diamondshovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/RedDiamondshovelItem.java",
+          "src/main/resources/assets/msat/models/item/red_diamondshovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/copper_shovel.json",
+          "src/main/java/net/mcreator/msat/item/CopperShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/CopperAxeItem.java",
+          "src/main/resources/assets/msat/models/item/copper_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/CopperpickaxeItem.java",
+          "src/main/resources/assets/msat/models/item/copper_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/CopperhoeItem.java",
+          "src/main/resources/assets/msat/models/item/copper_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Bauxiteore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/block/BauxiteoreBlock.java",
+          "src/main/resources/assets/msat/models/block/bauxite_ore.json",
+          "src/main/resources/data/msat/worldgen/configured_feature/bauxite_ore.json",
+          "src/main/resources/data/msat/loot_table/blocks/bauxite_ore.json",
+          "src/main/resources/assets/msat/blockstates/bauxite_ore.json",
+          "src/main/resources/data/msat/neoforge/biome_modifier/bauxite_ore_biome_modifier.json",
+          "src/main/resources/assets/msat/models/item/bauxite_ore.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/bauxite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateBauxiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_bauxite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/loot_table/blocks/deepslate_bauxite_ore.json",
+          "src/main/resources/data/msat/neoforge/biome_modifier/deepslate_bauxite_ore_biome_modifier.json",
+          "src/main/resources/data/msat/worldgen/configured_feature/deepslate_bauxite_ore.json",
+          "src/main/resources/assets/msat/models/item/deepslate_bauxite_ore.json",
+          "src/main/java/net/mcreator/msat/block/DeepslateBauxiteOreBlock.java",
+          "src/main/resources/assets/msat/blockstates/deepslate_bauxite_ore.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/deepslate_bauxite_ore.json",
+          "src/main/resources/assets/msat/models/block/deepslate_bauxite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/aluminium_ingot.json",
+          "src/main/java/net/mcreator/msat/item/AluminiumIngotItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DeepslateRedDiamondOre",
+      "~CUSTOM:RedDiamondBlock",
+      "~CUSTOM:RedDiamondOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DeepslateRedDiamondOre",
+      "~CUSTOM:RedDiamondBlock",
+      "~CUSTOM:RedDiamondOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Copperpickaxe",
+      "~CUSTOM:RedDiamondPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:CopperAxe",
+      "~CUSTOM:RedDiamondAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:RedDiamondSwords",
+      "~CUSTOM:CopperSword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Copperhoe",
+      "~CUSTOM:RedDiamondhoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:CopperShovel",
+      "~CUSTOM:RedDiamondshovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.msat.deepslate_red_diamond_ore": "Deepslate Red Diamond Ore",
+      "item.msat.red_diamond_pickaxe": "Red Diamond Pickaxe",
+      "item.msat.copper_shovel": "Copper Shovel",
+      "item.msat.copper_hoe": "Copperhoe",
+      "item.msat.red_diamond_axe": "Red Diamond Axe",
+      "item.msat.copper_sword": "Copper Sword",
+      "block.msat.red_diamond_block": "Red Diamond Block",
+      "block.msat.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
+      "item.msat.copper_pickaxe": "Copperpickaxe",
+      "item.msat.red_diamond_swords": "Red Diamond Swords",
+      "block.msat.red_diamond_ore": "Red Diamond Ore",
+      "item.msat.copper_axe": "Copper Axe",
+      "item.msat.red_diamondhoe": "Red Diamondhoe",
+      "item.msat.red_diamond": "Red Diamond",
+      "item.msat.red_diamondshovel": "Red Diamondshovel",
+      "block.msat.bauxite_ore": "Bauxite ore",
+      "item.msat.aluminium_ingot": "Aluminium Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "msat",
+    "modName": "More Swords And Tools",
+    "version": "1.0.0",
+    "author": "goncidomi",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.msat"
+  },
+  "mcreatorVersion": 202400452410
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "msat:block/diamond_block",
+    "up": "msat:block/diamond_block",
+    "north": "msat:block/diamond_block",
+    "east": "msat:block/diamond_block",
+    "south": "msat:block/diamond_block",
+    "west": "msat:block/diamond_block",
+    "particle": "msat:block/diamond_block"
+  },
+  "render_type": "solid"
+}
