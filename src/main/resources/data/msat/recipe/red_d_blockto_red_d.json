@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "msat:red_diamond_block"
+    }
+  ],
+  "result": {
+    "id": "msat:red_diamond",
+    "count": 9
+  }
+}

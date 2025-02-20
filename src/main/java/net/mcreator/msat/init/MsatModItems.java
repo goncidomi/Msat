@@ -24,6 +24,7 @@ import net.mcreator.msat.item.CopperhoeItem;
 import net.mcreator.msat.item.CopperSwordItem;
 import net.mcreator.msat.item.CopperShovelItem;
 import net.mcreator.msat.item.CopperAxeItem;
+import net.mcreator.msat.item.AluminiumSwordItem;
 import net.mcreator.msat.item.AluminiumIngotItem;
 import net.mcreator.msat.MsatMod;
 
@@ -47,6 +48,8 @@ public class MsatModItems {
 	public static final DeferredItem<Item> DEEPSLATE_BAUXITE_ORE = block(MsatModBlocks.DEEPSLATE_BAUXITE_ORE);
 	public static final DeferredItem<Item> ALUMINIUM_INGOT = REGISTRY.register("aluminium_ingot", AluminiumIngotItem::new);
 	public static final DeferredItem<Item> RAW_BAUXITE = REGISTRY.register("raw_bauxite", RawBauxiteItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_SWORD = REGISTRY.register("aluminium_sword", AluminiumSwordItem::new);
+	public static final DeferredItem<Item> RAW_BAUXITE_BLOCK = block(MsatModBlocks.RAW_BAUXITE_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

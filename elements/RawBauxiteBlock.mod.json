@@ -2,12 +2,12 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "bauxite_ore",
-    "textureTop": "bauxite_ore",
-    "textureLeft": "bauxite_ore",
-    "textureFront": "bauxite_ore",
-    "textureRight": "bauxite_ore",
-    "textureBack": "bauxite_ore",
+    "texture": "block_of_raw_bauxite",
+    "textureTop": "block_of_raw_bauxite",
+    "textureLeft": "block_of_raw_bauxite",
+    "textureFront": "block_of_raw_bauxite",
+    "textureRight": "block_of_raw_bauxite",
+    "textureBack": "block_of_raw_bauxite",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,18 +34,18 @@
       }
     ],
     "customProperties": [],
-    "name": "Bauxite ore",
+    "name": "Block Of Raw Bauxite",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
+    "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:RawBauxite"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -80,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -117,26 +117,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Blocks.STONE#1"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 9,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 60
+    "maxGenerateHeight": 64
   }
 }
