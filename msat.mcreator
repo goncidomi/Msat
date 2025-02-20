@@ -717,7 +717,6 @@
       "CUSTOM:AluminiumIngot"
     ],
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:AluminiumHoe",
       "~CUSTOM:AluminiumPickaxe",
       "~CUSTOM:Copperpickaxe",
       "~CUSTOM:RedDiamondPickaxe"
@@ -733,6 +732,7 @@
       "~CUSTOM:CopperSword"
     ],
     "ITEMS:minecraft:hoes": [
+      "~CUSTOM:AluminiumHoe",
       "~CUSTOM:Copperhoe",
       "~CUSTOM:RedDiamondhoe"
     ],

@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "tool",
   "definition": {
-    "toolType": "Pickaxe",
+    "toolType": "Hoe",
     "renderType": 0,
     "blockingRenderType": 0,
     "texture": "aluminium_hoe",
