@@ -283,6 +283,115 @@
           "src/main/resources/data/msat/recipe/alu_get_f_deep_bau.json"
         ]
       }
+    },
+    {
+      "name": "CopSwoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_swo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_swo_c.json"
+        ]
+      }
+    },
+    {
+      "name": "CopPicC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_pic_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_pic_c.json"
+        ]
+      }
+    },
+    {
+      "name": "CopShoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_sho_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_sho_c.json"
+        ]
+      }
+    },
+    {
+      "name": "CopHoeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_hoe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_hoe_c.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDSwoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_swo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_swo_c.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDShoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_sho_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_sho_c.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDPicC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_pic_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_pic_c.json"
+        ]
+      }
+    },
+    {
+      "name": "RawBauxite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bauxite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/RawBauxiteItem.java",
+          "src/main/resources/assets/msat/models/item/raw_bauxite.json"
+        ]
+      }
+    },
+    {
+      "name": "AluGetFrRawBaux",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_get_fr_raw_baux",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_get_fr_raw_baux.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -335,8 +444,9 @@
     "en_us": {
       "block.msat.deepslate_red_diamond_ore": "Deepslate Red Diamond Ore",
       "item.msat.red_diamond_pickaxe": "Red Diamond Pickaxe",
-      "item.msat.copper_hoe": "Copperhoe",
       "item.msat.copper_shovel": "Copper Shovel",
+      "item.msat.copper_hoe": "Copperhoe",
+      "item.msat.raw_bauxite": "Raw Bauxite",
       "item.msat.red_diamond_axe": "Red Diamond Axe",
       "item.msat.copper_sword": "Copper Sword",
       "block.msat.red_diamond_block": "Red Diamond Block",

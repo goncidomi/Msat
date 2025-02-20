@@ -3,17 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "red_diamond",
+    "texture": "raw_bauxite",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Red Diamond",
+    "name": "Raw Bauxite",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "MATERIALS"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

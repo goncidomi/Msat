@@ -18,6 +18,7 @@ import net.mcreator.msat.item.RedDiamondSwordsItem;
 import net.mcreator.msat.item.RedDiamondPickaxeItem;
 import net.mcreator.msat.item.RedDiamondItem;
 import net.mcreator.msat.item.RedDiamondAxeItem;
+import net.mcreator.msat.item.RawBauxiteItem;
 import net.mcreator.msat.item.CopperpickaxeItem;
 import net.mcreator.msat.item.CopperhoeItem;
 import net.mcreator.msat.item.CopperSwordItem;
@@ -45,6 +46,7 @@ public class MsatModItems {
 	public static final DeferredItem<Item> BAUXITE_ORE = block(MsatModBlocks.BAUXITE_ORE);
 	public static final DeferredItem<Item> DEEPSLATE_BAUXITE_ORE = block(MsatModBlocks.DEEPSLATE_BAUXITE_ORE);
 	public static final DeferredItem<Item> ALUMINIUM_INGOT = REGISTRY.register("aluminium_ingot", AluminiumIngotItem::new);
+	public static final DeferredItem<Item> RAW_BAUXITE = REGISTRY.register("raw_bauxite", RawBauxiteItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

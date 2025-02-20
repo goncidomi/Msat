@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "msat:bauxite_ore"
+          "name": "msat:raw_bauxite"
         }
       ]
     }
