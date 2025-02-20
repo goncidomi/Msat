@@ -742,6 +742,46 @@
         ]
       },
       "path": "~/End Ore"
+    },
+    {
+      "name": "AluminiumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/AluminiumNuggetItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_nugget.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluNugC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_nug_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_nug_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluFAluNug",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_f_alu_nug",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_f_alu_nug.json"
+        ]
+      },
+      "path": "~/Bauxite"
     }
   ],
   "variable_elements": [],
@@ -813,6 +853,7 @@
       "block.msat.bauxite_ore": "Bauxite ore",
       "item.msat.aluminium_ingot": "Aluminium Ingot",
       "block.msat.enderion_ore": "Enderion Ore",
+      "item.msat.aluminium_nugget": "Aluminium Nugget",
       "item.msat.copper_hoe": "Copperhoe",
       "item.msat.copper_shovel": "Copper Shovel",
       "item.msat.red_diamond_axe": "Red Diamond Axe",

@@ -29,6 +29,7 @@ import net.mcreator.msat.item.CopperAxeItem;
 import net.mcreator.msat.item.AluminiumSwordItem;
 import net.mcreator.msat.item.AluminiumShovelItem;
 import net.mcreator.msat.item.AluminiumPickaxeItem;
+import net.mcreator.msat.item.AluminiumNuggetItem;
 import net.mcreator.msat.item.AluminiumIngotItem;
 import net.mcreator.msat.item.AluminiumHoeItem;
 import net.mcreator.msat.item.AluminiumAxeItem;
@@ -64,6 +65,7 @@ public class MsatModItems {
 	public static final DeferredItem<Item> ENDERION_ORE = block(MsatModBlocks.ENDERION_ORE);
 	public static final DeferredItem<Item> ENDERION_SHARD = REGISTRY.register("enderion_shard", EnderionShardItem::new);
 	public static final DeferredItem<Item> ENDERION_INGOT = REGISTRY.register("enderion_ingot", EnderionIngotItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_NUGGET = REGISTRY.register("aluminium_nugget", AluminiumNuggetItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
