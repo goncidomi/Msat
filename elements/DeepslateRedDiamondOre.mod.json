@@ -38,11 +38,15 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 6.0,
+    "hardness": 4.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:RedDiamond"

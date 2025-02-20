@@ -37,8 +37,26 @@ public class MsatModTabs {
 			tabData.accept(MsatModItems.ALUMINIUM_SHOVEL.get());
 			tabData.accept(MsatModItems.ALUMINIUM_AXE.get());
 			tabData.accept(MsatModItems.ALUMINIUM_HOE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(MsatModItems.COPPER_SWORD.get());
+			tabData.accept(MsatModItems.RED_DIAMOND_SWORDS.get());
+			tabData.accept(MsatModItems.RED_DIAMOND_AXE.get());
+			tabData.accept(MsatModItems.COPPER_AXE.get());
+			tabData.accept(MsatModItems.ALUMINIUM_SWORD.get());
+			tabData.accept(MsatModItems.ALUMINIUM_AXE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(MsatModBlocks.RED_DIAMOND_ORE.get().asItem());
+			tabData.accept(MsatModBlocks.DEEPSLATE_RED_DIAMOND_ORE.get().asItem());
+			tabData.accept(MsatModBlocks.BAUXITE_ORE.get().asItem());
+			tabData.accept(MsatModBlocks.DEEPSLATE_BAUXITE_ORE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(MsatModBlocks.RED_DIAMOND_BLOCK.get().asItem());
+			tabData.accept(MsatModBlocks.RAW_BAUXITE_BLOCK.get().asItem());
+			tabData.accept(MsatModBlocks.ALUMINIUM_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(MsatModItems.RED_DIAMOND.get());
+			tabData.accept(MsatModItems.ALUMINIUM_INGOT.get());
+			tabData.accept(MsatModItems.RAW_BAUXITE.get());
 		}
 	}
 }

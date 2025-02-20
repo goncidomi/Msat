@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class DeepslateRedDiamondOreBlock extends Block {
 	public DeepslateRedDiamondOreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(6f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

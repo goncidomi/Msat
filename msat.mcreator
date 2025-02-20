@@ -668,6 +668,32 @@
         ]
       },
       "path": "~/Bauxite"
+    },
+    {
+      "name": "RawBauBloToRawBau",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bau_blo_to_raw_bau",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/raw_bau_blo_to_raw_bau.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluBloToAlu",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_blo_to_alu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_blo_to_alu.json"
+        ]
+      },
+      "path": "~/Bauxite"
     }
   ],
   "variable_elements": [],
@@ -729,7 +755,7 @@
       "item.msat.red_diamond_pickaxe": "Red Diamond Pickaxe",
       "item.msat.aluminium_pickaxe": "Aluminium Pickaxe",
       "item.msat.raw_bauxite": "Raw Bauxite",
-      "block.msat.aluminium_block": "Aluminium Block",
+      "block.msat.aluminium_block": "Block Of Aluminium",
       "item.msat.red_diamond_swords": "Red Diamond Swords",
       "item.msat.copper_axe": "Copper Axe",
       "item.msat.aluminium_sword": "Aluminium Sword",
