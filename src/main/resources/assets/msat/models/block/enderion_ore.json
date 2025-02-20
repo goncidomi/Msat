@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "msat:block/enderion_ore",
+    "up": "msat:block/enderion_ore",
+    "north": "msat:block/enderion_ore",
+    "east": "msat:block/enderion_ore",
+    "south": "msat:block/enderion_ore",
+    "west": "msat:block/enderion_ore",
+    "particle": "msat:block/enderion_ore"
+  },
+  "render_type": "solid"
+}

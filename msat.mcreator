@@ -694,6 +694,54 @@
         ]
       },
       "path": "~/Bauxite"
+    },
+    {
+      "name": "EnderionOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/worldgen/configured_feature/enderion_ore.json",
+          "src/main/resources/data/msat/neoforge/biome_modifier/enderion_ore_biome_modifier.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/enderion_ore.json",
+          "src/main/resources/data/msat/loot_table/blocks/enderion_ore.json",
+          "src/main/java/net/mcreator/msat/block/EnderionOreBlock.java",
+          "src/main/resources/assets/msat/models/block/enderion_ore.json",
+          "src/main/resources/assets/msat/blockstates/enderion_ore.json",
+          "src/main/resources/assets/msat/models/item/enderion_ore.json"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "EnderionShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/EnderionShardItem.java",
+          "src/main/resources/assets/msat/models/item/enderion_shard.json"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "EnderionIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/enderion_ingot.json",
+          "src/main/java/net/mcreator/msat/item/EnderionIngotItem.java"
+        ]
+      },
+      "path": "~/End Ore"
     }
   ],
   "variable_elements": [],
@@ -754,14 +802,17 @@
       "item.msat.aluminium_hoe": "Aluminium Hoe",
       "item.msat.red_diamond_pickaxe": "Red Diamond Pickaxe",
       "item.msat.aluminium_pickaxe": "Aluminium Pickaxe",
+      "item.msat.enderion_ingot": "Enderion Ingot",
       "item.msat.raw_bauxite": "Raw Bauxite",
       "block.msat.aluminium_block": "Block Of Aluminium",
       "item.msat.red_diamond_swords": "Red Diamond Swords",
       "item.msat.copper_axe": "Copper Axe",
+      "item.msat.enderion_shard": "Enderion Shard",
       "item.msat.aluminium_sword": "Aluminium Sword",
       "item.msat.red_diamondshovel": "Red Diamondshovel",
       "block.msat.bauxite_ore": "Bauxite ore",
       "item.msat.aluminium_ingot": "Aluminium Ingot",
+      "block.msat.enderion_ore": "Enderion Ore",
       "item.msat.copper_hoe": "Copperhoe",
       "item.msat.copper_shovel": "Copper Shovel",
       "item.msat.red_diamond_axe": "Red Diamond Axe",
@@ -789,6 +840,10 @@
       },
       {
         "name": "Copper",
+        "children": []
+      },
+      {
+        "name": "End Ore",
         "children": []
       }
     ]

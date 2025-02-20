@@ -19,6 +19,8 @@ import net.mcreator.msat.item.RedDiamondPickaxeItem;
 import net.mcreator.msat.item.RedDiamondItem;
 import net.mcreator.msat.item.RedDiamondAxeItem;
 import net.mcreator.msat.item.RawBauxiteItem;
+import net.mcreator.msat.item.EnderionShardItem;
+import net.mcreator.msat.item.EnderionIngotItem;
 import net.mcreator.msat.item.CopperpickaxeItem;
 import net.mcreator.msat.item.CopperhoeItem;
 import net.mcreator.msat.item.CopperSwordItem;
@@ -59,6 +61,9 @@ public class MsatModItems {
 	public static final DeferredItem<Item> ALUMINIUM_AXE = REGISTRY.register("aluminium_axe", AluminiumAxeItem::new);
 	public static final DeferredItem<Item> ALUMINIUM_HOE = REGISTRY.register("aluminium_hoe", AluminiumHoeItem::new);
 	public static final DeferredItem<Item> ALUMINIUM_BLOCK = block(MsatModBlocks.ALUMINIUM_BLOCK);
+	public static final DeferredItem<Item> ENDERION_ORE = block(MsatModBlocks.ENDERION_ORE);
+	public static final DeferredItem<Item> ENDERION_SHARD = REGISTRY.register("enderion_shard", EnderionShardItem::new);
+	public static final DeferredItem<Item> ENDERION_INGOT = REGISTRY.register("enderion_ingot", EnderionIngotItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
