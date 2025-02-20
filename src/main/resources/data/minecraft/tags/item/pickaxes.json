@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "msat:aluminium_hoe",
+    "msat:aluminium_pickaxe",
     "msat:copper_pickaxe",
     "msat:red_diamond_pickaxe"
   ]

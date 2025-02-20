@@ -16,7 +16,7 @@ public class CopperShovelItem extends ShovelItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 100;
+			return 200;
 		}
 
 		@Override
@@ -36,7 +36,7 @@ public class CopperShovelItem extends ShovelItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 20;
 		}
 
 		@Override

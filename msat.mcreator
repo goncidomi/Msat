@@ -504,6 +504,170 @@
         ]
       },
       "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/AluminiumPickaxeItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_pickaxe.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/aluminium_shovel.json",
+          "src/main/java/net/mcreator/msat/item/AluminiumShovelItem.java"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/AluminiumAxeItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_axe.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/AluminiumHoeItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_hoe.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "RawBauBloC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bau_blo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/raw_bau_blo_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/loot_table/blocks/aluminium_block.json",
+          "src/main/java/net/mcreator/msat/block/AluminiumBlockBlock.java",
+          "src/main/resources/assets/msat/models/block/aluminium_block.json",
+          "src/main/resources/assets/msat/models/item/aluminium_block.json",
+          "src/main/resources/assets/msat/blockstates/aluminium_block.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluBloC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_blo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_blo_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluSwoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_swo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_swo_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluPicC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_pic_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_pic_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluShoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_sho_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_sho_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_axe.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluHoeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_hoe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_hoe_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
     }
   ],
   "variable_elements": [],
@@ -527,10 +691,13 @@
       "CUSTOM:AluminiumIngot"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AluminiumHoe",
+      "~CUSTOM:AluminiumPickaxe",
       "~CUSTOM:Copperpickaxe",
       "~CUSTOM:RedDiamondPickaxe"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:AluminiumAxe",
       "~CUSTOM:CopperAxe",
       "~CUSTOM:RedDiamondAxe"
     ],
@@ -548,6 +715,7 @@
       "CUSTOM:DeepslateRedDiamondOre"
     ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AluminiumShovel",
       "~CUSTOM:CopperShovel",
       "~CUSTOM:RedDiamondshovel"
     ]
@@ -557,24 +725,29 @@
     "en_us": {
       "block.msat.deepslate_red_diamond_ore": "Deepslate Red Diamond Ore",
       "block.msat.raw_bauxite_block": "Block Of Raw Bauxite",
+      "item.msat.aluminium_hoe": "Aluminium Hoe",
       "item.msat.red_diamond_pickaxe": "Red Diamond Pickaxe",
-      "item.msat.copper_shovel": "Copper Shovel",
-      "item.msat.copper_hoe": "Copperhoe",
+      "item.msat.aluminium_pickaxe": "Aluminium Pickaxe",
       "item.msat.raw_bauxite": "Raw Bauxite",
-      "item.msat.red_diamond_axe": "Red Diamond Axe",
-      "item.msat.copper_sword": "Copper Sword",
-      "block.msat.red_diamond_block": "Block of Red Diamond ",
-      "block.msat.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
-      "item.msat.copper_pickaxe": "Copperpickaxe",
+      "block.msat.aluminium_block": "Aluminium Block",
       "item.msat.red_diamond_swords": "Red Diamond Swords",
-      "block.msat.red_diamond_ore": "Red Diamond Ore",
       "item.msat.copper_axe": "Copper Axe",
-      "item.msat.red_diamondhoe": "Red Diamondhoe",
       "item.msat.aluminium_sword": "Aluminium Sword",
-      "item.msat.red_diamond": "Red Diamond",
       "item.msat.red_diamondshovel": "Red Diamondshovel",
       "block.msat.bauxite_ore": "Bauxite ore",
-      "item.msat.aluminium_ingot": "Aluminium Ingot"
+      "item.msat.aluminium_ingot": "Aluminium Ingot",
+      "item.msat.copper_hoe": "Copperhoe",
+      "item.msat.copper_shovel": "Copper Shovel",
+      "item.msat.red_diamond_axe": "Red Diamond Axe",
+      "item.msat.aluminium_shovel": "Aluminium Shovel",
+      "item.msat.copper_sword": "Copper Sword",
+      "block.msat.red_diamond_block": "Block of Red Diamond ",
+      "item.msat.aluminium_axe": "Aluminium Axe",
+      "block.msat.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
+      "item.msat.copper_pickaxe": "Copperpickaxe",
+      "block.msat.red_diamond_ore": "Red Diamond Ore",
+      "item.msat.red_diamondhoe": "Red Diamondhoe",
+      "item.msat.red_diamond": "Red Diamond"
     }
   },
   "foldersRoot": {

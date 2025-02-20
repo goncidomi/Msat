@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "msat:aluminium_shovel",
     "msat:copper_shovel",
     "msat:red_diamondshovel"
   ]

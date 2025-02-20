@@ -33,6 +33,10 @@ public class MsatModTabs {
 			tabData.accept(MsatModItems.COPPER_PICKAXE.get());
 			tabData.accept(MsatModItems.COPPER_HOE.get());
 			tabData.accept(MsatModItems.ALUMINIUM_SWORD.get());
+			tabData.accept(MsatModItems.ALUMINIUM_PICKAXE.get());
+			tabData.accept(MsatModItems.ALUMINIUM_SHOVEL.get());
+			tabData.accept(MsatModItems.ALUMINIUM_AXE.get());
+			tabData.accept(MsatModItems.ALUMINIUM_HOE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(MsatModItems.RED_DIAMOND.get());
 		}

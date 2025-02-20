@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RawBauxite"
+      },
+      {
+        "value": "CUSTOM:RawBauxite"
+      },
+      {
+        "value": "CUSTOM:RawBauxite"
+      },
+      {
+        "value": "CUSTOM:RawBauxite"
+      },
+      {
+        "value": "CUSTOM:RawBauxite"
+      },
+      {
+        "value": "CUSTOM:RawBauxite"
+      },
+      {
+        "value": "CUSTOM:RawBauxite"
+      },
+      {
+        "value": "CUSTOM:RawBauxite"
+      },
+      {
+        "value": "CUSTOM:RawBauxite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawBauxiteBlock"
+    },
+    "name": "raw_bau_blo_c",
+    "namespace": "mod"
+  }
+}

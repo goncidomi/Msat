@@ -14,7 +14,7 @@ public class CopperpickaxeItem extends PickaxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 100;
+			return 200;
 		}
 
 		@Override
@@ -29,12 +29,12 @@ public class CopperpickaxeItem extends PickaxeItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_WOODEN_TOOL;
+			return BlockTags.INCORRECT_FOR_STONE_TOOL;
 		}
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 20;
 		}
 
 		@Override
@@ -44,6 +44,6 @@ public class CopperpickaxeItem extends PickaxeItem {
 	};
 
 	public CopperpickaxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 2.5f, -2.8f)));
 	}
 }

@@ -5,7 +5,7 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "Aluminium_Sword",
+    "texture": "aluminium_sword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Aluminium Sword",
@@ -21,7 +21,7 @@
     "attackSpeed": 1.8,
     "enchantability": 2,
     "damageVsEntity": 5.0,
-    "usageCount": 100,
+    "usageCount": 225,
     "glowCondition": {
       "fixedValue": false
     },

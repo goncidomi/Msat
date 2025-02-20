@@ -47,6 +47,6 @@ public class RedDiamondhoeItem extends HoeItem {
 	};
 
 	public RedDiamondhoeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 0f, 0.5f)));
 	}
 }

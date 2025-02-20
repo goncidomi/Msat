@@ -25,7 +25,11 @@ import net.mcreator.msat.item.CopperSwordItem;
 import net.mcreator.msat.item.CopperShovelItem;
 import net.mcreator.msat.item.CopperAxeItem;
 import net.mcreator.msat.item.AluminiumSwordItem;
+import net.mcreator.msat.item.AluminiumShovelItem;
+import net.mcreator.msat.item.AluminiumPickaxeItem;
 import net.mcreator.msat.item.AluminiumIngotItem;
+import net.mcreator.msat.item.AluminiumHoeItem;
+import net.mcreator.msat.item.AluminiumAxeItem;
 import net.mcreator.msat.MsatMod;
 
 public class MsatModItems {
@@ -50,6 +54,11 @@ public class MsatModItems {
 	public static final DeferredItem<Item> RAW_BAUXITE = REGISTRY.register("raw_bauxite", RawBauxiteItem::new);
 	public static final DeferredItem<Item> ALUMINIUM_SWORD = REGISTRY.register("aluminium_sword", AluminiumSwordItem::new);
 	public static final DeferredItem<Item> RAW_BAUXITE_BLOCK = block(MsatModBlocks.RAW_BAUXITE_BLOCK);
+	public static final DeferredItem<Item> ALUMINIUM_PICKAXE = REGISTRY.register("aluminium_pickaxe", AluminiumPickaxeItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_SHOVEL = REGISTRY.register("aluminium_shovel", AluminiumShovelItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_AXE = REGISTRY.register("aluminium_axe", AluminiumAxeItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_HOE = REGISTRY.register("aluminium_hoe", AluminiumHoeItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_BLOCK = block(MsatModBlocks.ALUMINIUM_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

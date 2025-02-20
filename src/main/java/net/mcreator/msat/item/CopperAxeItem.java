@@ -14,7 +14,7 @@ public class CopperAxeItem extends AxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 100;
+			return 200;
 		}
 
 		@Override
@@ -34,7 +34,7 @@ public class CopperAxeItem extends AxeItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 20;
 		}
 
 		@Override
@@ -44,6 +44,6 @@ public class CopperAxeItem extends AxeItem {
 	};
 
 	public CopperAxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 8f, -3.2f)));
 	}
 }

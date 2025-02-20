@@ -35,7 +35,7 @@ public class CopperSwordItem extends SwordItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 20;
 		}
 
 		@Override
