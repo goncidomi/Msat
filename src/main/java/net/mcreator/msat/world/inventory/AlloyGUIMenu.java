@@ -6,7 +6,10 @@ import net.neoforged.neoforge.items.SlotItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.IItemHandlerModifiable;
 import net.neoforged.neoforge.items.IItemHandler;
+import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BaseContainerBlockEntity;
@@ -22,12 +25,14 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.msat.procedures.AlloyGUIWhileThisGUIIsOpenTickProcedure;
 import net.mcreator.msat.init.MsatModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@EventBusSubscriber
 public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -82,17 +87,17 @@ public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 28, 35) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 28, 26) {
 			private final int slot = 0;
 			private int x = AlloyGUIMenu.this.x;
 			private int y = AlloyGUIMenu.this.y;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 136, 35) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 28, 62) {
 			private final int slot = 1;
 			private int x = AlloyGUIMenu.this.x;
 			private int y = AlloyGUIMenu.this.y;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 82, 44) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 139, 43) {
 			private final int slot = 2;
 			private int x = AlloyGUIMenu.this.x;
 			private int y = AlloyGUIMenu.this.y;
@@ -235,5 +240,17 @@ public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(PlayerTickEvent.Post event) {
+		Player entity = event.getEntity();
+		if (entity.containerMenu instanceof AlloyGUIMenu) {
+			Level world = entity.level();
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			AlloyGUIWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z);
+		}
 	}
 }

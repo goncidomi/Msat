@@ -25,7 +25,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 153,
-          "y": 71,
+          "y": 62,
           "locked": false
         }
       },
@@ -43,8 +43,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 261,
-          "y": 71,
+          "x": 153,
+          "y": 98,
           "locked": false
         }
       },
@@ -56,8 +56,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 207,
-          "y": 80,
+          "x": 264,
+          "y": 79,
           "locked": false
         }
       },
@@ -82,40 +82,137 @@
         "data": {
           "name": "label_empty",
           "text": {
-            "fixedValue": "->"
+            "fixedValue": "|"
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 180,
-          "y": 80,
+          "x": 159,
+          "y": 83,
           "locked": false
         }
       },
       {
-        "type": "label",
+        "type": "image",
         "data": {
-          "name": "label_empty1",
-          "text": {
-            "fixedValue": "<-"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 243,
-          "y": 80,
+          "image": "progress_bar_empty.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_0.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_1.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_2.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_3.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_4.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_5.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_6.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_7.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_8.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_9.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 83,
           "locked": false
         }
       }
     ],
+    "onTick": {
+      "name": "AlloyGUIWhileThisGUIIsOpenTick"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
       "ox": 16,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

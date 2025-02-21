@@ -22,6 +22,7 @@ import net.mcreator.msat.init.MsatModTabs;
 import net.mcreator.msat.init.MsatModMenus;
 import net.mcreator.msat.init.MsatModItems;
 import net.mcreator.msat.init.MsatModBlocks;
+import net.mcreator.msat.init.MsatModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -42,7 +43,7 @@ public class MsatMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		MsatModBlocks.REGISTRY.register(modEventBus);
-
+		MsatModBlockEntities.REGISTRY.register(modEventBus);
 		MsatModItems.REGISTRY.register(modEventBus);
 
 		MsatModTabs.REGISTRY.register(modEventBus);

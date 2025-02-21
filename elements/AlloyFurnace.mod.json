@@ -101,7 +101,7 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "AlloyGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 3,
@@ -123,6 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "AlloyGUIWhileThisGUIIsOpenTick"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

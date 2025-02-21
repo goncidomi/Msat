@@ -805,11 +805,43 @@
       "registry_name": "alloy_furnace",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/blockstates/alloy_furnace.json",
-          "src/main/resources/assets/msat/models/block/alloy_furnace.json",
+          "src/main/java/net/mcreator/msat/block/entity/AlloyFurnaceBlockEntity.java",
           "src/main/resources/data/msat/loot_table/blocks/alloy_furnace.json",
+          "src/main/resources/assets/msat/models/block/alloy_furnace.json",
+          "src/main/resources/assets/msat/blockstates/alloy_furnace.json",
           "src/main/resources/assets/msat/models/item/alloy_furnace.json",
           "src/main/java/net/mcreator/msat/block/AlloyFurnaceBlock.java"
+        ]
+      },
+      "path": "~/Alloy Furnace"
+    },
+    {
+      "name": "AlloyGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alloy_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/procedures/AlloyGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/Alloy Furnace"
@@ -894,7 +926,7 @@
       "item.msat.raw_bauxite": "Raw Bauxite",
       "block.msat.aluminium_block": "Block Of Aluminium",
       "item.msat.red_diamond_swords": "Red Diamond Swords",
-      "gui.msat.alloy_gui.label_empty": "-\u003e",
+      "gui.msat.alloy_gui.label_empty": "|",
       "item.msat.copper_axe": "Copper Axe",
       "item.msat.enderion_shard": "§5Enderion Shard",
       "item.msat.aluminium_sword": "Aluminium Sword",

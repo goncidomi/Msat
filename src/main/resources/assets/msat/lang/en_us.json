@@ -10,7 +10,7 @@
   "item.msat.raw_bauxite": "Raw Bauxite",
   "block.msat.aluminium_block": "Block Of Aluminium",
   "item.msat.red_diamond_swords": "Red Diamond Swords",
-  "gui.msat.alloy_gui.label_empty": "-\u003e",
+  "gui.msat.alloy_gui.label_empty": "|",
   "item.msat.copper_axe": "Copper Axe",
   "item.msat.enderion_shard": "§5Enderion Shard",
   "item.msat.aluminium_sword": "Aluminium Sword",
