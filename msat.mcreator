@@ -830,22 +830,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -932,6 +916,25 @@
           {
             "name": "world",
             "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alloy Furnace"
+    },
+    {
+      "name": "AlloyGUIWhileThisGUIIsOpenTicks",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alloy_gui_while_this_gui_is_open_ticks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/procedures/AlloyGUIWhileThisGUIIsOpenTicksProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
           }
         ]
       },

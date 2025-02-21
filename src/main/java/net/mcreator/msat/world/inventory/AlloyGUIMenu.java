@@ -27,7 +27,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.msat.procedures.OutProcedure;
-import net.mcreator.msat.procedures.AlloyGUIWhileThisGUIIsOpenTickProcedure;
+import net.mcreator.msat.procedures.AlloyGUIWhileThisGUIIsOpenTicksProcedure;
 import net.mcreator.msat.network.AlloyGUISlotMessage;
 import net.mcreator.msat.init.MsatModMenus;
 
@@ -267,7 +267,7 @@ public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			AlloyGUIWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z, entity);
+			AlloyGUIWhileThisGUIIsOpenTicksProcedure.execute(entity);
 		}
 	}
 }
