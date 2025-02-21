@@ -34,7 +34,7 @@ public class CopperhoeItem extends HoeItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 20;
 		}
 
 		@Override
@@ -44,6 +44,6 @@ public class CopperhoeItem extends HoeItem {
 	};
 
 	public CopperhoeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 1.5f, -3f)));
 	}
 }

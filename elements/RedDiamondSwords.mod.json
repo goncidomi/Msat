@@ -15,11 +15,14 @@
     "creativeTabs": [
       {
         "value": "TOOLS"
+      },
+      {
+        "value": "COMBAT"
       }
     ],
     "efficiency": 4.0,
     "attackSpeed": 1.5999999999999999,
-    "enchantability": 10,
+    "enchantability": 12,
     "damageVsEntity": 6.5,
     "usageCount": 1221,
     "glowCondition": {

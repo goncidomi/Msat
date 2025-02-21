@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "msat:aluminium_sword",
     "msat:red_diamond_swords",
     "msat:copper_sword"
   ]

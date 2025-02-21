@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "msat:block/block_of_raw_bauxite",
+    "up": "msat:block/block_of_raw_bauxite",
+    "north": "msat:block/block_of_raw_bauxite",
+    "east": "msat:block/block_of_raw_bauxite",
+    "south": "msat:block/block_of_raw_bauxite",
+    "west": "msat:block/block_of_raw_bauxite",
+    "particle": "msat:block/block_of_raw_bauxite"
+  },
+  "render_type": "solid"
+}

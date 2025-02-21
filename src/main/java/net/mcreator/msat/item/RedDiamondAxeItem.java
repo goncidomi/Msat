@@ -47,6 +47,6 @@ public class RedDiamondAxeItem extends AxeItem {
 	};
 
 	public RedDiamondAxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 8f, -3.1f)));
 	}
 }

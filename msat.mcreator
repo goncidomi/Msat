@@ -283,6 +283,485 @@
           "src/main/resources/data/msat/recipe/alu_get_f_deep_bau.json"
         ]
       }
+    },
+    {
+      "name": "RedDBlocktoRedD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_blockto_red_d",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_blockto_red_d.json"
+        ]
+      },
+      "path": "~/Red Diamond"
+    },
+    {
+      "name": "CopPicC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_pic_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_pic_c.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "AluminiumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/aluminium_shovel.json",
+          "src/main/java/net/mcreator/msat/item/AluminiumShovelItem.java"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/aluminium_sword.json",
+          "src/main/java/net/mcreator/msat/item/AluminiumSwordItem.java"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/AluminiumNuggetItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_nugget.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluBloToAlu",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_blo_to_alu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_blo_to_alu.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "EnderionShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/enderion_shard.json",
+          "src/main/java/net/mcreator/msat/item/EnderionShardItem.java"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "AluminiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/block/AluminiumBlockBlock.java",
+          "src/main/resources/data/msat/loot_table/blocks/aluminium_block.json",
+          "src/main/resources/assets/msat/models/item/aluminium_block.json",
+          "src/main/resources/assets/msat/models/block/aluminium_block.json",
+          "src/main/resources/assets/msat/blockstates/aluminium_block.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "EnderionIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/enderion_ingot.json",
+          "src/main/java/net/mcreator/msat/item/EnderionIngotItem.java"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "RedDBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_block.json"
+        ]
+      },
+      "path": "~/Red Diamond"
+    },
+    {
+      "name": "AluSwoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_swo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_swo_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "RawBauBloC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bau_blo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/raw_bau_blo_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "RawBauBloToRawBau",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bau_blo_to_raw_bau",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/raw_bau_blo_to_raw_bau.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "CopSwoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_swo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_swo_c.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "RedDShoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_sho_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_sho_c.json"
+        ]
+      },
+      "path": "~/Red Diamond"
+    },
+    {
+      "name": "RedDHoeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_hoe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_hoe_c.json"
+        ]
+      },
+      "path": "~/Red Diamond"
+    },
+    {
+      "name": "EnderionOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/neoforge/biome_modifier/enderion_ore_biome_modifier.json",
+          "src/main/resources/data/msat/worldgen/configured_feature/enderion_ore.json",
+          "src/main/resources/assets/msat/models/item/enderion_ore.json",
+          "src/main/java/net/mcreator/msat/block/EnderionOreBlock.java",
+          "src/main/resources/data/msat/loot_table/blocks/enderion_ore.json",
+          "src/main/resources/assets/msat/blockstates/enderion_ore.json",
+          "src/main/resources/assets/msat/models/block/enderion_ore.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/enderion_ore.json"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "AluminiumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/aluminium_hoe.json",
+          "src/main/java/net/mcreator/msat/item/AluminiumHoeItem.java"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluFAluNug",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_f_alu_nug",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_f_alu_nug.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "RedDSwoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_swo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_swo_c.json"
+        ]
+      },
+      "path": "~/Red Diamond"
+    },
+    {
+      "name": "AluShoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_sho_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_sho_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluGetFrRawBaux",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_get_fr_raw_baux",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_get_fr_raw_baux.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "CopShoC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_sho_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_sho_c.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopHoeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cop_hoe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/cop_hoe_c.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "RedDPicC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_pic_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_pic_c.json"
+        ]
+      },
+      "path": "~/Red Diamond"
+    },
+    {
+      "name": "RawBauxiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bauxite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/block/RawBauxiteBlockBlock.java",
+          "src/main/resources/assets/msat/models/block/raw_bauxite_block.json",
+          "src/main/resources/assets/msat/models/item/raw_bauxite_block.json",
+          "src/main/resources/assets/msat/blockstates/raw_bauxite_block.json",
+          "src/main/resources/data/msat/loot_table/blocks/raw_bauxite_block.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluPicC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_pic_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_pic_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/aluminium_axe.json",
+          "src/main/java/net/mcreator/msat/item/AluminiumAxeItem.java"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_axe.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluBloC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_blo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_blo_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluminiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/item/AluminiumPickaxeItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_pickaxe.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "RawBauxite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bauxite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/raw_bauxite.json",
+          "src/main/java/net/mcreator/msat/item/RawBauxiteItem.java"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluNugC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_nug_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_nug_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "AluHoeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alu_hoe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alu_hoe_c.json"
+        ]
+      },
+      "path": "~/Bauxite"
+    },
+    {
+      "name": "RedDAxeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_d_axe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/red_d_axe_c.json"
+        ]
+      },
+      "path": "~/Red Diamond"
     }
   ],
   "variable_elements": [],
@@ -306,18 +785,22 @@
       "CUSTOM:AluminiumIngot"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AluminiumPickaxe",
       "~CUSTOM:Copperpickaxe",
       "~CUSTOM:RedDiamondPickaxe"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:AluminiumAxe",
       "~CUSTOM:CopperAxe",
       "~CUSTOM:RedDiamondAxe"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:AluminiumSword",
       "~CUSTOM:RedDiamondSwords",
       "~CUSTOM:CopperSword"
     ],
     "ITEMS:minecraft:hoes": [
+      "~CUSTOM:AluminiumHoe",
       "~CUSTOM:Copperhoe",
       "~CUSTOM:RedDiamondhoe"
     ],
@@ -326,6 +809,7 @@
       "CUSTOM:DeepslateRedDiamondOre"
     ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AluminiumShovel",
       "~CUSTOM:CopperShovel",
       "~CUSTOM:RedDiamondshovel"
     ]
@@ -335,6 +819,11 @@
     "en_us": {
       "block.msat.deepslate_red_diamond_ore": "Deepslate Red Diamond Ore",
       "item.msat.red_diamond_pickaxe": "Red Diamond Pickaxe",
+      "item.msat.red_diamond_swords": "Red Diamond Swords",
+      "item.msat.copper_axe": "Copper Axe",
+      "item.msat.red_diamondshovel": "Red Diamondshovel",
+      "block.msat.bauxite_ore": "Bauxite ore",
+      "item.msat.aluminium_ingot": "Aluminium Ingot",
       "item.msat.copper_shovel": "Copper Shovel",
       "item.msat.copper_hoe": "Copperhoe",
       "item.msat.red_diamond_axe": "Red Diamond Axe",
@@ -342,19 +831,31 @@
       "block.msat.red_diamond_block": "Red Diamond Block",
       "block.msat.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
       "item.msat.copper_pickaxe": "Copperpickaxe",
-      "item.msat.red_diamond_swords": "Red Diamond Swords",
       "block.msat.red_diamond_ore": "Red Diamond Ore",
-      "item.msat.copper_axe": "Copper Axe",
       "item.msat.red_diamondhoe": "Red Diamondhoe",
-      "item.msat.red_diamond": "Red Diamond",
-      "item.msat.red_diamondshovel": "Red Diamondshovel",
-      "block.msat.bauxite_ore": "Bauxite ore",
-      "item.msat.aluminium_ingot": "Aluminium Ingot"
+      "item.msat.red_diamond": "Red Diamond"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Red Diamond",
+        "children": []
+      },
+      {
+        "name": "Copper",
+        "children": []
+      },
+      {
+        "name": "End Ore",
+        "children": []
+      },
+      {
+        "name": "Bauxite",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "msat",

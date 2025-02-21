@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "msat:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "id": "msat:aluminium_ingot",
+    "count": 9
+  }
+}

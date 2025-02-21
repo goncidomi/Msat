@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "msat:aluminium_axe",
     "msat:copper_axe",
     "msat:red_diamond_axe"
   ]

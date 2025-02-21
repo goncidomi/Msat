@@ -33,7 +33,7 @@ public class RedDiamondSwordsItem extends SwordItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 10;
+			return 12;
 		}
 
 		@Override

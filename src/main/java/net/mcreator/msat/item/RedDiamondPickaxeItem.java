@@ -37,7 +37,7 @@ public class RedDiamondPickaxeItem extends PickaxeItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 12;
 		}
 
 		@Override
@@ -47,6 +47,6 @@ public class RedDiamondPickaxeItem extends PickaxeItem {
 	};
 
 	public RedDiamondPickaxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -2.6f)));
 	}
 }

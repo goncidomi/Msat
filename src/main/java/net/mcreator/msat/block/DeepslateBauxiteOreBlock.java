@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class DeepslateBauxiteOreBlock extends Block {
 	public DeepslateBauxiteOreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(6f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4f, 10f));
 	}
 
 	@Override

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "msat:block/aluminium_block",
+    "up": "msat:block/aluminium_block",
+    "north": "msat:block/aluminium_block",
+    "east": "msat:block/aluminium_block",
+    "south": "msat:block/aluminium_block",
+    "west": "msat:block/aluminium_block",
+    "particle": "msat:block/aluminium_block"
+  },
+  "render_type": "solid"
+}

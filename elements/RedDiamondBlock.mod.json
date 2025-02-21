@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Red Diamond Block",
+    "name": "Block of Red Diamond ",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,7 +42,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "BUILDING_BLOCKS"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""

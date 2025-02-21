@@ -42,10 +42,14 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:RawBauxite"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -134,7 +138,7 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 20,
+    "frequencyPerChunks": 10,
     "frequencyOnChunk": 9,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 60

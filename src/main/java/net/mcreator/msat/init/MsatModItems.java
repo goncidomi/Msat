@@ -18,12 +18,21 @@ import net.mcreator.msat.item.RedDiamondSwordsItem;
 import net.mcreator.msat.item.RedDiamondPickaxeItem;
 import net.mcreator.msat.item.RedDiamondItem;
 import net.mcreator.msat.item.RedDiamondAxeItem;
+import net.mcreator.msat.item.RawBauxiteItem;
+import net.mcreator.msat.item.EnderionShardItem;
+import net.mcreator.msat.item.EnderionIngotItem;
 import net.mcreator.msat.item.CopperpickaxeItem;
 import net.mcreator.msat.item.CopperhoeItem;
 import net.mcreator.msat.item.CopperSwordItem;
 import net.mcreator.msat.item.CopperShovelItem;
 import net.mcreator.msat.item.CopperAxeItem;
+import net.mcreator.msat.item.AluminiumSwordItem;
+import net.mcreator.msat.item.AluminiumShovelItem;
+import net.mcreator.msat.item.AluminiumPickaxeItem;
+import net.mcreator.msat.item.AluminiumNuggetItem;
 import net.mcreator.msat.item.AluminiumIngotItem;
+import net.mcreator.msat.item.AluminiumHoeItem;
+import net.mcreator.msat.item.AluminiumAxeItem;
 import net.mcreator.msat.MsatMod;
 
 public class MsatModItems {
@@ -45,6 +54,18 @@ public class MsatModItems {
 	public static final DeferredItem<Item> BAUXITE_ORE = block(MsatModBlocks.BAUXITE_ORE);
 	public static final DeferredItem<Item> DEEPSLATE_BAUXITE_ORE = block(MsatModBlocks.DEEPSLATE_BAUXITE_ORE);
 	public static final DeferredItem<Item> ALUMINIUM_INGOT = REGISTRY.register("aluminium_ingot", AluminiumIngotItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_SHOVEL = REGISTRY.register("aluminium_shovel", AluminiumShovelItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_SWORD = REGISTRY.register("aluminium_sword", AluminiumSwordItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_NUGGET = REGISTRY.register("aluminium_nugget", AluminiumNuggetItem::new);
+	public static final DeferredItem<Item> ENDERION_SHARD = REGISTRY.register("enderion_shard", EnderionShardItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_BLOCK = block(MsatModBlocks.ALUMINIUM_BLOCK);
+	public static final DeferredItem<Item> ENDERION_INGOT = REGISTRY.register("enderion_ingot", EnderionIngotItem::new);
+	public static final DeferredItem<Item> ENDERION_ORE = block(MsatModBlocks.ENDERION_ORE);
+	public static final DeferredItem<Item> ALUMINIUM_HOE = REGISTRY.register("aluminium_hoe", AluminiumHoeItem::new);
+	public static final DeferredItem<Item> RAW_BAUXITE_BLOCK = block(MsatModBlocks.RAW_BAUXITE_BLOCK);
+	public static final DeferredItem<Item> ALUMINIUM_AXE = REGISTRY.register("aluminium_axe", AluminiumAxeItem::new);
+	public static final DeferredItem<Item> ALUMINIUM_PICKAXE = REGISTRY.register("aluminium_pickaxe", AluminiumPickaxeItem::new);
+	public static final DeferredItem<Item> RAW_BAUXITE = REGISTRY.register("raw_bauxite", RawBauxiteItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
