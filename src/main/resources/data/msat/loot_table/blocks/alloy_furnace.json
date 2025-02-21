@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "msat:blocks/alloy_furnace",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "msat:alloy_furnace"
+        }
+      ]
+    }
+  ]
+}

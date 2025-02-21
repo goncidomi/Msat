@@ -66,6 +66,7 @@ public class MsatModItems {
 	public static final DeferredItem<Item> ALUMINIUM_AXE = REGISTRY.register("aluminium_axe", AluminiumAxeItem::new);
 	public static final DeferredItem<Item> ALUMINIUM_PICKAXE = REGISTRY.register("aluminium_pickaxe", AluminiumPickaxeItem::new);
 	public static final DeferredItem<Item> RAW_BAUXITE = REGISTRY.register("raw_bauxite", RawBauxiteItem::new);
+	public static final DeferredItem<Item> ALLOY_FURNACE = block(MsatModBlocks.ALLOY_FURNACE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

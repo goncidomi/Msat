@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.msat.init.MsatModTabs;
+import net.mcreator.msat.init.MsatModMenus;
 import net.mcreator.msat.init.MsatModItems;
 import net.mcreator.msat.init.MsatModBlocks;
 
@@ -45,6 +46,8 @@ public class MsatMod {
 		MsatModItems.REGISTRY.register(modEventBus);
 
 		MsatModTabs.REGISTRY.register(modEventBus);
+
+		MsatModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

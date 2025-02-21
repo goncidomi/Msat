@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "msat:alloy_furnace",
+    "msat:aluminium_block",
+    "msat:raw_bauxite_block",
+    "msat:deepslate_bauxite_ore",
+    "msat:bauxite_ore",
+    "msat:enderion_ore",
     "msat:deepslate_red_diamond_ore",
     "msat:red_diamond_block",
     "msat:red_diamond_ore"

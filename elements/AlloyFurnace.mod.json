@@ -2,12 +2,12 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "block_of_raw_bauxite",
-    "textureTop": "block_of_raw_bauxite",
-    "textureLeft": "block_of_raw_bauxite",
-    "textureFront": "block_of_raw_bauxite",
-    "textureRight": "block_of_raw_bauxite",
-    "textureBack": "block_of_raw_bauxite",
+    "texture": "minecraft:acacia_leaves",
+    "textureTop": "minecraft:acacia_leaves",
+    "textureLeft": "minecraft:acacia_leaves",
+    "textureFront": "minecraft:acacia_leaves",
+    "textureRight": "minecraft:acacia_leaves",
+    "textureBack": "minecraft:acacia_leaves",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,19 +34,15 @@
       }
     ],
     "customProperties": [],
-    "name": "Block Of Raw Bauxite",
+    "name": "Alloy Furnace",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 2.0,
+    "hardness": 4.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "BUILDING_BLOCKS"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -103,16 +99,22 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "STONE",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": false,
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "guiBoundTo": "AlloyGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      2
+    ],
+    "inventoryInSlotIDs": [
+      0,
+      1
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,

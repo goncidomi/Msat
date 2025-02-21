@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "msat:deleted_mod_element"
+      "item": "msat:raw_bauxite"
     }
   },
   "result": {
-    "id": "msat:deleted_mod_element",
+    "id": "msat:raw_bauxite_block",
     "count": 1
   }
 }

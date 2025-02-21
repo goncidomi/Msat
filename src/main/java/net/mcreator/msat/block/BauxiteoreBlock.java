@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class BauxiteoreBlock extends Block {
 	public BauxiteoreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
