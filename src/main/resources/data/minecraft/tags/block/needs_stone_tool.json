@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "msat:aluminium_block",
     "msat:raw_bauxite_block",
-    "msat:bauxite_ore",
-    "msat:deepslate_bauxite_ore"
+    "msat:aluminium_block",
+    "msat:deepslate_bauxite_ore",
+    "msat:bauxite_ore"
   ]
 }

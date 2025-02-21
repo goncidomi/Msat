@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "msat:block/alloy_furnace"
+    },
+    "facing=east": {
+      "model": "msat:block/alloy_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "msat:block/alloy_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "msat:block/alloy_furnace",
+      "y": 270
     }
   }
 }

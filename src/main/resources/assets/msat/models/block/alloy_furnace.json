@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecraft:block/acacia_leaves",
-    "up": "minecraft:block/acacia_leaves",
-    "north": "minecraft:block/acacia_leaves",
-    "east": "minecraft:block/acacia_leaves",
-    "south": "minecraft:block/acacia_leaves",
-    "west": "minecraft:block/acacia_leaves",
-    "particle": "minecraft:block/acacia_leaves"
+    "down": "minecraft:block/blast_furnace_top",
+    "up": "minecraft:block/blast_furnace_top",
+    "north": "msat:block/untitled-1-recovered",
+    "east": "minecraft:block/blast_furnace_side",
+    "south": "minecraft:block/blast_furnace_side",
+    "west": "minecraft:block/blast_furnace_side",
+    "particle": "minecraft:block/blast_furnace_top"
   },
   "render_type": "solid"
 }

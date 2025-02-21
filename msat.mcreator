@@ -36,14 +36,14 @@
       "registry_name": "red_diamond_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/msat/worldgen/configured_feature/red_diamond_ore.json",
-          "src/main/resources/data/msat/neoforge/biome_modifier/red_diamond_ore_biome_modifier.json",
-          "src/main/resources/assets/msat/models/block/red_diamond_ore.json",
-          "src/main/resources/data/msat/loot_table/blocks/red_diamond_ore.json",
-          "src/main/resources/data/msat/worldgen/placed_feature/red_diamond_ore.json",
-          "src/main/resources/assets/msat/blockstates/red_diamond_ore.json",
           "src/main/java/net/mcreator/msat/block/RedDiamondOreBlock.java",
-          "src/main/resources/assets/msat/models/item/red_diamond_ore.json"
+          "src/main/resources/data/msat/neoforge/biome_modifier/red_diamond_ore_biome_modifier.json",
+          "src/main/resources/assets/msat/models/item/red_diamond_ore.json",
+          "src/main/resources/assets/msat/models/block/red_diamond_ore.json",
+          "src/main/resources/data/msat/worldgen/configured_feature/red_diamond_ore.json",
+          "src/main/resources/data/msat/loot_table/blocks/red_diamond_ore.json",
+          "src/main/resources/assets/msat/blockstates/red_diamond_ore.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/red_diamond_ore.json"
         ]
       },
       "path": "~/Red Diamond"
@@ -56,11 +56,11 @@
       "registry_name": "red_diamond_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/msat/models/block/red_diamond_block.json",
+          "src/main/java/net/mcreator/msat/block/RedDiamondBlockBlock.java",
           "src/main/resources/assets/msat/blockstates/red_diamond_block.json",
           "src/main/resources/data/msat/loot_table/blocks/red_diamond_block.json",
-          "src/main/java/net/mcreator/msat/block/RedDiamondBlockBlock.java",
-          "src/main/resources/assets/msat/models/item/red_diamond_block.json",
-          "src/main/resources/assets/msat/models/block/red_diamond_block.json"
+          "src/main/resources/assets/msat/models/item/red_diamond_block.json"
         ]
       },
       "path": "~/Red Diamond"
@@ -73,8 +73,8 @@
       "registry_name": "red_diamond",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/red_diamond.json",
-          "src/main/java/net/mcreator/msat/item/RedDiamondItem.java"
+          "src/main/java/net/mcreator/msat/item/RedDiamondItem.java",
+          "src/main/resources/assets/msat/models/item/red_diamond.json"
         ]
       },
       "path": "~/Red Diamond"
@@ -87,14 +87,14 @@
       "registry_name": "deepslate_red_diamond_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/msat/loot_table/blocks/deepslate_red_diamond_ore.json",
           "src/main/resources/assets/msat/models/item/deepslate_red_diamond_ore.json",
           "src/main/java/net/mcreator/msat/block/DeepslateRedDiamondOreBlock.java",
-          "src/main/resources/data/msat/loot_table/blocks/deepslate_red_diamond_ore.json",
-          "src/main/resources/assets/msat/models/block/deepslate_red_diamond_ore.json",
+          "src/main/resources/data/msat/neoforge/biome_modifier/deepslate_red_diamond_ore_biome_modifier.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/deepslate_red_diamond_ore.json",
           "src/main/resources/data/msat/worldgen/configured_feature/deepslate_red_diamond_ore.json",
           "src/main/resources/assets/msat/blockstates/deepslate_red_diamond_ore.json",
-          "src/main/resources/data/msat/neoforge/biome_modifier/deepslate_red_diamond_ore_biome_modifier.json",
-          "src/main/resources/data/msat/worldgen/placed_feature/deepslate_red_diamond_ore.json"
+          "src/main/resources/assets/msat/models/block/deepslate_red_diamond_ore.json"
         ]
       },
       "path": "~/Red Diamond"
@@ -121,8 +121,8 @@
       "registry_name": "red_diamond_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/msat/item/RedDiamondAxeItem.java",
-          "src/main/resources/assets/msat/models/item/red_diamond_axe.json"
+          "src/main/resources/assets/msat/models/item/red_diamond_axe.json",
+          "src/main/java/net/mcreator/msat/item/RedDiamondAxeItem.java"
         ]
       },
       "path": "~/Red Diamond"
@@ -177,8 +177,8 @@
       "registry_name": "copper_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/copper_axe.json",
-          "src/main/java/net/mcreator/msat/item/CopperAxeItem.java"
+          "src/main/java/net/mcreator/msat/item/CopperAxeItem.java",
+          "src/main/resources/assets/msat/models/item/copper_axe.json"
         ]
       },
       "path": "~/Copper"
@@ -205,8 +205,8 @@
       "registry_name": "copper_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/copper_hoe.json",
-          "src/main/java/net/mcreator/msat/item/CopperhoeItem.java"
+          "src/main/java/net/mcreator/msat/item/CopperhoeItem.java",
+          "src/main/resources/assets/msat/models/item/copper_hoe.json"
         ]
       },
       "path": "~/Copper"
@@ -232,13 +232,13 @@
       "registry_name": "bauxite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/bauxite_ore.json",
-          "src/main/resources/assets/msat/models/block/bauxite_ore.json",
           "src/main/java/net/mcreator/msat/block/BauxiteoreBlock.java",
+          "src/main/resources/assets/msat/models/block/bauxite_ore.json",
           "src/main/resources/data/msat/worldgen/configured_feature/bauxite_ore.json",
+          "src/main/resources/data/msat/loot_table/blocks/bauxite_ore.json",
           "src/main/resources/assets/msat/blockstates/bauxite_ore.json",
           "src/main/resources/data/msat/neoforge/biome_modifier/bauxite_ore_biome_modifier.json",
-          "src/main/resources/data/msat/loot_table/blocks/bauxite_ore.json",
+          "src/main/resources/assets/msat/models/item/bauxite_ore.json",
           "src/main/resources/data/msat/worldgen/placed_feature/bauxite_ore.json"
         ]
       },
@@ -253,13 +253,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/msat/loot_table/blocks/deepslate_bauxite_ore.json",
-          "src/main/resources/assets/msat/models/block/deepslate_bauxite_ore.json",
           "src/main/resources/data/msat/neoforge/biome_modifier/deepslate_bauxite_ore_biome_modifier.json",
           "src/main/resources/data/msat/worldgen/configured_feature/deepslate_bauxite_ore.json",
           "src/main/resources/assets/msat/models/item/deepslate_bauxite_ore.json",
+          "src/main/java/net/mcreator/msat/block/DeepslateBauxiteOreBlock.java",
           "src/main/resources/assets/msat/blockstates/deepslate_bauxite_ore.json",
           "src/main/resources/data/msat/worldgen/placed_feature/deepslate_bauxite_ore.json",
-          "src/main/java/net/mcreator/msat/block/DeepslateBauxiteOreBlock.java"
+          "src/main/resources/assets/msat/models/block/deepslate_bauxite_ore.json"
         ]
       },
       "path": "~/Bauxite"
@@ -352,8 +352,8 @@
       "registry_name": "aluminium_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/aluminium_sword.json",
-          "src/main/java/net/mcreator/msat/item/AluminiumSwordItem.java"
+          "src/main/java/net/mcreator/msat/item/AluminiumSwordItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_sword.json"
         ]
       },
       "path": "~/Bauxite"
@@ -393,8 +393,8 @@
       "registry_name": "enderion_shard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/enderion_shard.json",
-          "src/main/java/net/mcreator/msat/item/EnderionShardItem.java"
+          "src/main/java/net/mcreator/msat/item/EnderionShardItem.java",
+          "src/main/resources/assets/msat/models/item/enderion_shard.json"
         ]
       },
       "path": "~/End Ore"
@@ -407,10 +407,10 @@
       "registry_name": "aluminium_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/msat/block/AluminiumBlockBlock.java",
           "src/main/resources/data/msat/loot_table/blocks/aluminium_block.json",
-          "src/main/resources/assets/msat/models/item/aluminium_block.json",
+          "src/main/java/net/mcreator/msat/block/AluminiumBlockBlock.java",
           "src/main/resources/assets/msat/models/block/aluminium_block.json",
+          "src/main/resources/assets/msat/models/item/aluminium_block.json",
           "src/main/resources/assets/msat/blockstates/aluminium_block.json"
         ]
       },
@@ -529,14 +529,14 @@
       "registry_name": "enderion_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/msat/neoforge/biome_modifier/enderion_ore_biome_modifier.json",
           "src/main/resources/data/msat/worldgen/configured_feature/enderion_ore.json",
-          "src/main/resources/assets/msat/models/item/enderion_ore.json",
-          "src/main/java/net/mcreator/msat/block/EnderionOreBlock.java",
+          "src/main/resources/data/msat/neoforge/biome_modifier/enderion_ore_biome_modifier.json",
+          "src/main/resources/data/msat/worldgen/placed_feature/enderion_ore.json",
           "src/main/resources/data/msat/loot_table/blocks/enderion_ore.json",
-          "src/main/resources/assets/msat/blockstates/enderion_ore.json",
+          "src/main/java/net/mcreator/msat/block/EnderionOreBlock.java",
           "src/main/resources/assets/msat/models/block/enderion_ore.json",
-          "src/main/resources/data/msat/worldgen/placed_feature/enderion_ore.json"
+          "src/main/resources/assets/msat/blockstates/enderion_ore.json",
+          "src/main/resources/assets/msat/models/item/enderion_ore.json"
         ]
       },
       "path": "~/End Ore"
@@ -549,8 +549,8 @@
       "registry_name": "aluminium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/aluminium_hoe.json",
-          "src/main/java/net/mcreator/msat/item/AluminiumHoeItem.java"
+          "src/main/java/net/mcreator/msat/item/AluminiumHoeItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_hoe.json"
         ]
       },
       "path": "~/Bauxite"
@@ -654,11 +654,11 @@
       "registry_name": "raw_bauxite_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/msat/block/RawBauxiteBlockBlock.java",
-          "src/main/resources/assets/msat/models/block/raw_bauxite_block.json",
-          "src/main/resources/assets/msat/models/item/raw_bauxite_block.json",
           "src/main/resources/assets/msat/blockstates/raw_bauxite_block.json",
-          "src/main/resources/data/msat/loot_table/blocks/raw_bauxite_block.json"
+          "src/main/resources/assets/msat/models/item/raw_bauxite_block.json",
+          "src/main/java/net/mcreator/msat/block/RawBauxiteBlockBlock.java",
+          "src/main/resources/data/msat/loot_table/blocks/raw_bauxite_block.json",
+          "src/main/resources/assets/msat/models/block/raw_bauxite_block.json"
         ]
       },
       "path": "~/Bauxite"
@@ -684,8 +684,8 @@
       "registry_name": "aluminium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/aluminium_axe.json",
-          "src/main/java/net/mcreator/msat/item/AluminiumAxeItem.java"
+          "src/main/java/net/mcreator/msat/item/AluminiumAxeItem.java",
+          "src/main/resources/assets/msat/models/item/aluminium_axe.json"
         ]
       },
       "path": "~/Bauxite"
@@ -738,8 +738,8 @@
       "registry_name": "raw_bauxite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/msat/models/item/raw_bauxite.json",
-          "src/main/java/net/mcreator/msat/item/RawBauxiteItem.java"
+          "src/main/java/net/mcreator/msat/item/RawBauxiteItem.java",
+          "src/main/resources/assets/msat/models/item/raw_bauxite.json"
         ]
       },
       "path": "~/Bauxite"
@@ -939,6 +939,72 @@
         ]
       },
       "path": "~/Alloy Furnace"
+    },
+    {
+      "name": "AlloyFurnaceC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alloy_furnace_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/alloy_furnace_c.json"
+        ]
+      },
+      "path": "~/Alloy Furnace"
+    },
+    {
+      "name": "EnderionSwordRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/procedures/EnderionSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "EnderionSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msat/models/item/enderion_sword.json",
+          "src/main/java/net/mcreator/msat/item/EnderionSwordItem.java"
+        ]
+      },
+      "path": "~/End Ore"
     }
   ],
   "variable_elements": [
@@ -980,11 +1046,11 @@
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:AlloyFurnace",
-      "~CUSTOM:AluminiumBlock",
       "~CUSTOM:RawBauxiteBlock",
+      "~CUSTOM:EnderionOre",
+      "~CUSTOM:AluminiumBlock",
       "~CUSTOM:DeepslateBauxiteOre",
       "~CUSTOM:Bauxiteore",
-      "~CUSTOM:EnderionOre",
       "~CUSTOM:DeepslateRedDiamondOre",
       "~CUSTOM:RedDiamondBlock",
       "~CUSTOM:RedDiamondOre"
@@ -994,24 +1060,25 @@
       "CUSTOM:DeepslateBauxiteOre"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:AluminiumBlock",
       "~CUSTOM:RawBauxiteBlock",
-      "~CUSTOM:Bauxiteore",
-      "~CUSTOM:DeepslateBauxiteOre"
+      "~CUSTOM:AluminiumBlock",
+      "~CUSTOM:DeepslateBauxiteOre",
+      "~CUSTOM:Bauxiteore"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:AluminiumAxe",
       "~CUSTOM:CopperAxe",
       "~CUSTOM:RedDiamondAxe"
     ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:AluminiumSword",
-      "~CUSTOM:RedDiamondSwords",
-      "~CUSTOM:CopperSword"
-    ],
     "BLOCKS:c:ores/red_diamond": [
       "CUSTOM:RedDiamondOre",
       "CUSTOM:DeepslateRedDiamondOre"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:EnderionSword",
+      "~CUSTOM:AluminiumSword",
+      "~CUSTOM:RedDiamondSwords",
+      "~CUSTOM:CopperSword"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:AluminiumShovel",
@@ -1045,6 +1112,7 @@
       "item.msat.aluminium_nugget": "Aluminium Nugget",
       "item.msat.copper_shovel": "Copper Shovel",
       "item.msat.copper_hoe": "Copperhoe",
+      "item.msat.enderion_sword": "Enderion Sword",
       "item.msat.red_diamond_axe": "Red Diamond Axe",
       "item.msat.aluminium_shovel": "Aluminium Shovel",
       "item.msat.copper_sword": "Copper Sword",
