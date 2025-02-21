@@ -61,7 +61,6 @@ public class AlloyGUIScreen extends AbstractContainerScreen<AlloyGUIMenu> {
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_alloy_furnace"), 51, 10, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_empty"), 54, 97, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_empty1"), 57, 39, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_empty2"), 113, 39, -12829636, false);
 	}

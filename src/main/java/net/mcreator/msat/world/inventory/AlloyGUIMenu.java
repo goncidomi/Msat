@@ -230,7 +230,7 @@ public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
-		OutProcedure.execute();
+		OutProcedure.execute(world, x, y, z, entity);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
