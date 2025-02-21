@@ -46,29 +46,6 @@ public class AlloyGUIScreen extends AbstractContainerScreen<AlloyGUIMenu> {
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_empty.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_0.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_1.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_2.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_3.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_4.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_5.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_6.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_7.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_8.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
-		guiGraphics.blit(ResourceLocation.parse("msat:textures/screens/progress_bar_filled_9.png"), this.leftPos + 63, this.topPos + 46, 0, 0, 54, 10, 54, 10);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -84,7 +61,9 @@ public class AlloyGUIScreen extends AbstractContainerScreen<AlloyGUIMenu> {
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_alloy_furnace"), 51, 10, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_empty"), 33, 46, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_empty"), 54, 97, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_empty1"), 57, 39, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.msat.alloy_gui.label_empty2"), 113, 39, -12829636, false);
 	}
 
 	@Override

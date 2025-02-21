@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.msat.network.MsatModVariables;
 import net.mcreator.msat.init.MsatModTabs;
 import net.mcreator.msat.init.MsatModMenus;
 import net.mcreator.msat.init.MsatModItems;
@@ -47,6 +48,7 @@ public class MsatMod {
 		MsatModItems.REGISTRY.register(modEventBus);
 
 		MsatModTabs.REGISTRY.register(modEventBus);
+		MsatModVariables.ATTACHMENT_TYPES.register(modEventBus);
 
 		MsatModMenus.REGISTRY.register(modEventBus);
 

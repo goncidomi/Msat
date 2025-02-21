@@ -25,7 +25,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 153,
-          "y": 62,
+          "y": 71,
           "locked": false
         }
       },
@@ -43,8 +43,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 153,
-          "y": 98,
+          "x": 261,
+          "y": 71,
           "locked": false
         }
       },
@@ -56,8 +56,11 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 264,
-          "y": 79,
+          "onTakenFromSlot": {
+            "name": "Otherothething"
+          },
+          "x": 207,
+          "y": 71,
           "locked": false
         }
       },
@@ -88,118 +91,40 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 159,
-          "y": 83,
+          "x": 180,
+          "y": 134,
           "locked": false
         }
       },
       {
-        "type": "image",
+        "type": "label",
         "data": {
-          "image": "progress_bar_empty.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
+          "name": "label_empty1",
+          "text": {
+            "fixedValue": "->"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 183,
+          "y": 76,
           "locked": false
         }
       },
       {
-        "type": "image",
+        "type": "label",
         "data": {
-          "image": "progress_bar_filled_0.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_1.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_2.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_3.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_4.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_5.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_6.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_7.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_8.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "progress_bar_filled_9.png",
-          "use1Xscale": false,
-          "x": 189,
-          "y": 83,
+          "name": "label_empty2",
+          "text": {
+            "fixedValue": "<-"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 239,
+          "y": 76,
           "locked": false
         }
       }
@@ -207,12 +132,15 @@
     "onTick": {
       "name": "AlloyGUIWhileThisGUIIsOpenTick"
     },
+    "onClosed": {
+      "name": "Out"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
       "ox": 16,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

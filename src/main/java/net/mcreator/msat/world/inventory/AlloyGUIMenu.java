@@ -1,6 +1,7 @@
 
 package net.mcreator.msat.world.inventory;
 
+import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.items.wrapper.InvWrapper;
 import net.neoforged.neoforge.items.SlotItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
@@ -25,7 +26,9 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.msat.procedures.OutProcedure;
 import net.mcreator.msat.procedures.AlloyGUIWhileThisGUIIsOpenTickProcedure;
+import net.mcreator.msat.network.AlloyGUISlotMessage;
 import net.mcreator.msat.init.MsatModMenus;
 
 import java.util.function.Supplier;
@@ -87,20 +90,26 @@ public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 28, 26) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 28, 35) {
 			private final int slot = 0;
 			private int x = AlloyGUIMenu.this.x;
 			private int y = AlloyGUIMenu.this.y;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 28, 62) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 136, 35) {
 			private final int slot = 1;
 			private int x = AlloyGUIMenu.this.x;
 			private int y = AlloyGUIMenu.this.y;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 139, 43) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 82, 35) {
 			private final int slot = 2;
 			private int x = AlloyGUIMenu.this.x;
 			private int y = AlloyGUIMenu.this.y;
+
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(2, 1, 0);
+			}
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -221,6 +230,7 @@ public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
+		OutProcedure.execute();
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
@@ -238,6 +248,13 @@ public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 		}
 	}
 
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			PacketDistributor.sendToServer(new AlloyGUISlotMessage(slotid, x, y, z, ctype, meta));
+			AlloyGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
+		}
+	}
+
 	public Map<Integer, Slot> get() {
 		return customSlots;
 	}
@@ -250,7 +267,7 @@ public class AlloyGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			AlloyGUIWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z);
+			AlloyGUIWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }

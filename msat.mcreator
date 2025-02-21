@@ -792,7 +792,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/msat/world/inventory/AlloyGUIMenu.java",
-          "src/main/java/net/mcreator/msat/client/gui/AlloyGUIScreen.java"
+          "src/main/java/net/mcreator/msat/client/gui/AlloyGUIScreen.java",
+          "src/main/java/net/mcreator/msat/network/AlloyGUISlotMessage.java"
         ]
       },
       "path": "~/Alloy Furnace"
@@ -827,6 +828,75 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alloy Furnace"
+    },
+    {
+      "name": "Out",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "out",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/procedures/OutProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Alloy Furnace"
+    },
+    {
+      "name": "Otherothething",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otherothething",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/msat/procedures/OtherothethingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Alloy Furnace"
+    },
+    {
+      "name": "EMPTY",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/msat/procedures/EMPTYProcedure.java"
+        ],
+        "dependencies": [
+          {
             "name": "x",
             "type": "number"
           },
@@ -847,7 +917,20 @@
       "path": "~/Alloy Furnace"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "craftingTime",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "craftingProgress",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
@@ -920,7 +1003,8 @@
       "block.msat.raw_bauxite_block": "Block Of Raw Bauxite",
       "item.msat.aluminium_hoe": "Aluminium Hoe",
       "item.msat.red_diamond_pickaxe": "Red Diamond Pickaxe",
-      "gui.msat.alloy_gui.label_empty1": "\u003c-",
+      "gui.msat.alloy_gui.label_empty1": "-\u003e",
+      "gui.msat.alloy_gui.label_empty2": "\u003c-",
       "item.msat.aluminium_pickaxe": "Aluminium Pickaxe",
       "item.msat.enderion_ingot": "§5Enderion Ingot",
       "item.msat.raw_bauxite": "Raw Bauxite",
