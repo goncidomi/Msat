@@ -45,6 +45,10 @@ public class MsatModTabs {
 			tabData.accept(MsatModItems.ALUMINIUM_SWORD.get());
 			tabData.accept(MsatModItems.ALUMINIUM_AXE.get());
 			tabData.accept(MsatModItems.ENDERION_SWORD.get());
+			tabData.accept(MsatModItems.ENDERION_HELMET.get());
+			tabData.accept(MsatModItems.ENDERION_CHESTPLATE.get());
+			tabData.accept(MsatModItems.ENDERION_LEGGINGS.get());
+			tabData.accept(MsatModItems.ENDERION_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MsatModBlocks.RED_DIAMOND_ORE.get().asItem());
 			tabData.accept(MsatModBlocks.DEEPSLATE_RED_DIAMOND_ORE.get().asItem());
