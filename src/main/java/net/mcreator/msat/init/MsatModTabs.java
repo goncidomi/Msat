@@ -54,6 +54,7 @@ public class MsatModTabs {
 			tabData.accept(MsatModBlocks.DEEPSLATE_RED_DIAMOND_ORE.get().asItem());
 			tabData.accept(MsatModBlocks.BAUXITE_ORE.get().asItem());
 			tabData.accept(MsatModBlocks.DEEPSLATE_BAUXITE_ORE.get().asItem());
+			tabData.accept(MsatModBlocks.ENDERION_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MsatModBlocks.RED_DIAMOND_BLOCK.get().asItem());
 			tabData.accept(MsatModBlocks.ALUMINIUM_BLOCK.get().asItem());

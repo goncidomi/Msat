@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnderionIngot"
+      },
+      {
+        "value": "CUSTOM:EnderionIngot"
+      },
+      {
+        "value": "CUSTOM:EnderionIngot"
+      },
+      {
+        "value": "CUSTOM:EnderionIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnderionIngot"
+      },
+      {
+        "value": "CUSTOM:EnderionIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnderionIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Enderion.legs"
+    },
+    "name": "end_arm_leg_c",
+    "namespace": "mod"
+  }
+}

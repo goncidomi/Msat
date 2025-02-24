@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "msat:enderion_ingot"
+    }
+  },
+  "result": {
+    "id": "msat:enderion_boots",
+    "count": 1
+  }
+}

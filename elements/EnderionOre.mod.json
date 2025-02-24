@@ -42,7 +42,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:EnderionShard"
@@ -97,7 +101,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 1,
     "unbreakable": false,
     "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,

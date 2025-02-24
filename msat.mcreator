@@ -1022,6 +1022,71 @@
         ]
       },
       "path": "~/End Ore"
+    },
+    {
+      "name": "EnderionSwC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderion_sw_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/enderion_sw_c.json"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "EndArmHelC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_arm_hel_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/end_arm_hel_c.json"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "EndArmCheC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_arm_che_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/end_arm_che_c.json"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "EndArmLegC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_arm_leg_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/end_arm_leg_c.json"
+        ]
+      },
+      "path": "~/End Ore"
+    },
+    {
+      "name": "EndArmBooC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_arm_boo_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msat/recipe/end_arm_boo_c.json"
+        ]
+      },
+      "path": "~/End Ore"
     }
   ],
   "variable_elements": [
@@ -1118,8 +1183,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.msat.alloy_furnace": "Alloy Furnace",
       "item.msat.enderion_leggings": "Enderion Leggings",
+      "block.msat.alloy_furnace": "Alloy Furnace",
       "block.msat.deepslate_red_diamond_ore": "Deepslate Red Diamond Ore",
       "block.msat.raw_bauxite_block": "Block Of Raw Bauxite",
       "item.msat.aluminium_hoe": "Aluminium Hoe",
